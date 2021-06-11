@@ -8,7 +8,7 @@ btn.onclick = function(){
     removerSpans();
 
     let span = document.createElement('span');
-    span.setAttribute('class', 'alert-warning');
+    span.setAttribute('class', 'alert-dark');
 
     let msg = document.createTextNode('Não há nada ainda para procurar');
     
