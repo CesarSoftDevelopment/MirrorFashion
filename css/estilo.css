@@ -43,7 +43,7 @@ footer {
     clear: both;
 }
 
-footer .container {
+footer .meu-container {
     position: relative;
 
 }
@@ -102,7 +102,7 @@ a {
 
 
 
-.container {
+.meu-container {
     width: 940px;
     margin: 0px auto;
 }
@@ -145,6 +145,7 @@ a {
     position: absolute;
     right: 0px;
     top: 0;
+    
 }
 
 
