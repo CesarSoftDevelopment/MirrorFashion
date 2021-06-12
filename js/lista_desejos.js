@@ -26,7 +26,7 @@ function adicionarItens() {
 
         itemLista.appendChild(itemTexto);
       
-        lista.appendChild(itemLista);
+        lista.appendChild(itemLista).style.background = 'pink';
         
         
     }
