@@ -149,6 +149,17 @@ a {
     
 }
 
+/*
+Lista de desejos
+*/
+
+.titulo {
+    background: white;
+}
+
+.imagem-certa {
+    padding-top: 10px;
+}
 
 
 #rodape {
@@ -248,17 +259,25 @@ a {
      background-color: white;
  }
 
+  
+
  .painel figure {
     width:95px;
-    padding: 5px;
+    padding: 0px;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
  }
  .painel img {
-    width:95px;
+    width:100px;
  }
  
+ .figcaption {
+     background:pink;
+ }
+
+
+
 a:hover {
     text-decoration: underline;
 }

@@ -3,7 +3,10 @@ busca = document.querySelector('#busca');
 
 btn = document.querySelector('#btn');
 
+
+
 btn.onclick = function(){
+
 
     removerSpans();
 
@@ -25,3 +28,6 @@ function removerSpans() {
     }
 
 }
+
+
+

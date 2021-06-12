@@ -34,11 +34,8 @@
     <!-- Início do cabeçalho-->
     <!-- Início do cabeçalho da página-->
     <header class="meu-container">
-        <h1 class="logotipo">
-            <img src="img/logo.png" alt="Mirror Fashion">
-        </h1>
+       <a href="index.html"><img class="imagem-certa" src="img/logo.png"></a> 
         <p class="sacola">
-           
         </p>
         <nav class="menu-opcoes">
             <ul>
@@ -51,20 +48,26 @@
         </nav>
     </header>
 
-    <div class="container">
+
+    <div style="padding-top: 55px;" class="container">
         <div class="card">
-            <h1 class="card-header">Lista de Desejos</h1>
+            <h1 style="text-align: center;" class="card-header titulo">Lista de Desejos</h1>
             <div class="card-body">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Digite o item" name="tarefa" autofocus>
+                    <input type="text" class="form-control" placeholder="Digite o item" name="produto" autofocus>
                     <div class="input-group-append">
                         <button class="btn btn-dark" type="button" id="botao">Adicioanar</button>
-
                 </div>
             </div>
+            <h5 style="padding-left: 15px; color: black;">Produtos</h5>
             <ul id="lista" class="list-group">
             </ul>
+            <button style="margin-left: 15px;" class="btn btn-dark" type="button" id="botao2">OK</button>
         </div>
     </div>
+    
 
+    <script src="js/lista_desejos.js"></script>
+
+    
     </body>
