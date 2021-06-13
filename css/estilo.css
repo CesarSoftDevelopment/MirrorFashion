@@ -77,6 +77,8 @@ ul {
     padding-bottom: 10px;
 }
 
+
+
 li {
     margin: 0;
 }
@@ -118,6 +120,10 @@ a {
     position:absolute;
     bottom: 0;
     right: 0;
+}
+
+.menu-opcoes a {
+    font-size: 16px;
 }
 
 .menu-opcoes ul {
@@ -259,6 +265,17 @@ Lista de desejos
      background-color: white;
  }
 
+
+.btn-black:hover {
+    background: pink;
+
+}
+
+.btn-black {
+	background: black;
+	color: white;
+
+}
   
 
  .painel figure {

@@ -41,7 +41,7 @@
             <ul>
                 <li><a href="index.html">Principal</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li class="link-ativo radius-dez"><a href="lista_desejos.html">Lista de desejos</a></li>
+                <li><a href="lista_desejos.html">Lista de desejos</a></li>
                 <li><a href="#">Cartão fidelidade</a></li>
                 <li><a href="#">Ajuda</a></li>
                 <li><a href="login.html" class="btn btn-outline-light btn-black ml-0.5">Entre</a></li>
@@ -50,26 +50,23 @@
         </nav>
     </header>
 
-
-    <div style="padding-top: 55px;" class="container">
-        <div class="card">
-            <h1 style="text-align: center;" class="card-header titulo">Lista de Desejos</h1>
-            <div class="card-body">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Digite o item" name="produto" autofocus>
-                    <div class="input-group-append">
-                        <button class="btn btn-dark" type="button" id="botao">Adicioanar</button>
-                </div>
-            </div>
-            <h1 style="padding-left: 15px; background: white; color: black; text-align:center">Produtos</h5>
-            <ul id="lista" class="list-group">
-            </ul>
-            <button style="margin-left: 15px;" class="btn btn-dark" type="button" id="botao2">Salvar</button>
+    <form>
+        <div style="padding-left: 500px; padding-top: 100px;">
+            <h1 style="background: none; padding-bottom: 20px; padding-left: 70px;">Entrar</h1>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input id="email" style="width: 300px;" type="email" class="form-control">
         </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input id="senha" style="width: 300px;"  type="password" class="form-control">
+        </div>
+       
+        <button id="btn-login" type="button" class="btn btn-dark">Entrar</button>
+      </form>
     </div>
-    
+    <div class="card"></div>
 
-    <script src="js/lista_desejos.js"></script>
-
+    <script src="js/login.js"></script>
     
     </body>

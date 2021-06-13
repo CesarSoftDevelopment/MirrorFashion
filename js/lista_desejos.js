@@ -61,7 +61,6 @@ botao.onclick = () => {
     
             card.appendChild(outro_span);
      
-
     }
 }
 
