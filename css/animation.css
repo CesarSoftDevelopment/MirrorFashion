@@ -1,0 +1,73 @@
+
+
+   @keyframes grow {
+    from {
+        font-size: 10px;
+    }
+
+    to {
+        font-size: 17px;
+    }
+
+}
+
+#menu-departamentos {
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes move {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    100% {
+        left: 0%;
+    }
+
+}
+
+#anime-novidades {
+    position: relative;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2s;
+
+
+}
+
+#anime-vendidos {
+    position: relative;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2s;
+
+
+}
+
+#novidades {
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2s;
+
+}
+
+#mais-vendidos {
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2s;
+}
