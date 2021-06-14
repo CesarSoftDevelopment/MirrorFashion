@@ -31,13 +31,14 @@ function verificacao() {
     }else if(nomeLogon == '' && emailLogon != '' && senhaLogon == '') {
         spanNomeSenha();
 
-    }
-    else {
+    }else if(nomeLogon == '' && emailLogon != '' && senhaLogon != ''){
+        spanNome();
+    }else {
         spanSuccess();
        
     }
         
-    }
+}
 
     function spanNome() {
         removerSpans();
