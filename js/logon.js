@@ -19,13 +19,20 @@ function verificacao() {
     }else if(nomeLogon != '' && emailLogon == '' && senhaLogon == ''){
         spanEmail();
        
-    }else if(nome != '' && emailLogon != '' && senhaLogon == ''){
+    }else if(nomeLogon != '' && emailLogon != '' && senhaLogon == ''){
         spanSenha();
        
     }else if(nomeLogon == '' && emailLogon == '' && senhaLogon != '' ){
-        spanEmailSenha();
+        spanNomeEmail();
         
-    }else {
+    }else if(nomeLogon != '' && emailLogon == '' && senhaLogon != ''){
+        spanEmail();
+
+    }else if(nomeLogon == '' && emailLogon != '' && senhaLogon == '') {
+        spanNomeSenha();
+
+    }
+    else {
         spanSuccess();
        
     }
@@ -68,16 +75,29 @@ function verificacao() {
         card.appendChild(span);
     }
 
-    function spanEmailSenha() {
+    function spanNomeEmail() {
         removerSpans();
         let span = document.createElement('span');
         span.setAttribute('class', 'alert alert-danger');
 
-        let mensagem = document.createTextNode('Digite seu email e senha');
+        let mensagem = document.createTextNode('Digite seu nome e email');
 
         span.appendChild(mensagem);
 
         card.appendChild(span);
+    }
+
+    function spanNomeSenha() {
+        removerSpans();
+        let span = document.createElement('span');
+        span.setAttribute('class', 'alert alert-danger');
+
+        let mensagem = document.createTextNode('Digite seu nome e senha');
+
+        span.appendChild(mensagem);
+
+        card.appendChild(span);
+
     }
 
     function spanSuccess() {

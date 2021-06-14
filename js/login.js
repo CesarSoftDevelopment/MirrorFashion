@@ -75,6 +75,7 @@ function verificacao() {
         span.appendChild(mensagem);
 
         card.appendChild(span);
+        paginaInicial();
 
     }
 
@@ -87,6 +88,7 @@ function removerSpans() {
         }
 
     }
+
 
   
 
