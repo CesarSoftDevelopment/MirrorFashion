@@ -41,6 +41,14 @@
     animation-fill-mode: forwards;
 }
 
+.paragrafos {
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
 
 
 
