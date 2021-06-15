@@ -9,12 +9,11 @@ let card = document.querySelector('.card');
 
 let produtos = JSON.parse(localStorage.getItem('produtos')) || [];
 
-
 function adicionarItens() {
     
     lista.innerHTML = '';
     for(produto of produtos) {
-        let itemLista = document.createElement('li');
+        let itemLista = document.createElement('h6');
 
         itemLista.setAttribute('class', 'list-group-item list-group-item-action');
 
@@ -90,10 +89,10 @@ let botao2 = document.querySelector('#botao2');
 
 let itens = document.querySelectorAll('li');
 
+let adicao = input.value;
 function adicionar() {
-    
-    if(itens == null){
-        alert('Adicione um produto');
+    if(item = null){
+     alert('adicione um item');
     }else {
         for(let i = 0; i < itens.length; i++){
             deletarItens(itens[i]);

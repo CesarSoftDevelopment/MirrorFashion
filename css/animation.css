@@ -19,6 +19,30 @@
 
 }
 
+#centro-distribuicao{
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#image-centro {
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+#familia-pelho{
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
 
 @keyframes move {
     0% {
