@@ -83,7 +83,7 @@ function verification() {
 
     }
 
-// this function remove the span from the screen
+// this function remove the span from the screen 
 function removerSpans() {
     let spans = document.querySelectorAll('span');
         
